@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './styles.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ThemeProvider } from "./ThemeContext";
+import { ListProvider } from "./components/List/ListContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider>
+      <ListProvider>
+      <App />
+      </ListProvider>
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

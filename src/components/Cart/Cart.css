@@ -1,0 +1,35 @@
+.cart-wrapper {
+    margin-right: 15px;
+    position: relative;
+  }
+  
+  .cart-wrapper span {
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    background: #ff3f6c;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 12px;
+    color: var(--font-color);
+    right: -10px;
+    top: -10px;
+    font-weight: 700;
+  }
+
+  #cart-img{
+    transition: smooth 0.3s;
+    cursor: pointer;
+  }
+
+  #cart-img:hover{
+    transform: scale(1.2);
+  }
+  
+  #cart-img:active{
+    box-shadow: 4px 4px 4px #999;
+    border-radius: 16px;
+    background-color: cadetblue;
+  }

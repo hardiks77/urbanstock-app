@@ -1,0 +1,14 @@
+.item-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    overflow: auto;
+    grid-gap: 20px;
+    justify-content: space-between;
+    
+}
+
+.loading{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
